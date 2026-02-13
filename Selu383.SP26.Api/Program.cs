@@ -22,7 +22,7 @@ builder.Services
         options.Password.RequireNonAlphanumeric = true;
         options.Password.RequiredLength = 8;
         options.User.RequireUniqueEmail = false;
-        options.User.AllowedUserNameCharacters = null;
+        options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
     })
     .AddEntityFrameworkStores<DataContext>()
     .AddDefaultTokenProviders();
