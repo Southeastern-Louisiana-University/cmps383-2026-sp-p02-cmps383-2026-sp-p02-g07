@@ -18,6 +18,7 @@
     <PackageReference Include="MSTest.TestAdapter" Version="4.0.0" />
     <PackageReference Include="MSTest.TestFramework" Version="4.0.0" />
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="10.0.3" />
   </ItemGroup>
 
   <ItemGroup>
